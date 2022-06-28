@@ -1,0 +1,11 @@
+### 1、先吧.ssh文件下的所有文件进行删除;
+### 2、然后使用git进行设置
+	1)设置用户名
+		git config --global user.name ‘提交代码的用户名’
+	2)设置用户名邮箱
+		git config --global user.email ‘邮箱地址’
+	3)查看设置
+		git config --list
+ ### 3、然后在输入ssh-keygen -t rsa -C "邮箱地址"（一路回车就可以了）
+ ### 4、然后在使用命令  open .ssh/id_rsa.pub   查看文件，复制内容
+ ### 5、最后在github配置ssh
