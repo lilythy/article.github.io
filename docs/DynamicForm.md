@@ -404,5 +404,6 @@ arrayValue Boolean 否 是否是数组格式
 ```
 
 **_ Rancher 应用部署配置定义参考 _**
-https://10.10.227.26:8443/g/apps/catalog/cattle-global-data:library-kafka
+<br>
+https://10.10.227.26:8443/g/apps/catalog/cattle-global-data:library-kafka<br>
 https://10.10.227.26:8443/g/apps/catalog/cattle-global-data:library-redis
